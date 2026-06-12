@@ -1,11 +1,9 @@
 package ewzx.gtfo;
 
-import net.minecraft.block.Blocks;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.decoration.DisplayEntity;
 import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.server.world.ServerWorld;
-import net.minecraft.util.Cooldown;
 import net.minecraft.util.math.AffineTransformation;
 import org.joml.Vector3f;
 

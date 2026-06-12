@@ -2,10 +2,7 @@ package ewzx.gtfo;
 
 import java.util.function.Function;
 
-import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
-import net.minecraft.block.TargetBlock;
-import net.minecraft.block.dispenser.BlockPlacementDispenserBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
