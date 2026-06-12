@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "gtfo",
+	"version": "${version}",
+	"name": "GTFO",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/gtfo/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ewzx.gtfo.GTFO"
+		],
+		"client": [
+			"ewzx.gtfo.client.GTFOClient"
+		]
+	},
+	"mixins": [
+		"gtfo.mixins.json",
+		{
+			"config": "gtfo.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

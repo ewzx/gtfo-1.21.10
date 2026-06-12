@@ -1,0 +1,9 @@
+{
+  "itemGroup.gtfo.gtfo_tab": "GTFO Equipment",
+
+  "item.gtfo.bio_tracker": "Bio Tracker",
+  "item.gtfo.ping": "Ping",
+
+  "tooltip.gtfo.bio_tracker.title": "Bio Tracker",
+  "tooltip.gtfo.bio_tracker": "Hold RMB to tag."
+}
